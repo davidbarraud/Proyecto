@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Buenos Aires</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <!--<link rel="shortcut icon" href="favicon.png" type="image/x-icon">-->
+
+</head>
+<body>
+    <header class="header__flex">
+        <div class="header__flex__logo">
+                <img class="header__flex__logo__img" src="./assets/images/codoacodo.png" alt="" loading="lazy">
+                <p class="header__flex__logo__p">Conf Bs As</p>
+        </div>
+        <nav class="header__flex__navegador">
+                    <!--Colocamos enlaces con la etiqueta a de ancla-->
+                <a class="header__flex__navegador__link" href="#">La Conferencia</a>
+                <a class="header__flex__navegador__link" href="#">Los oradores</a>
+                <a class="header__flex__navegador__link" href="#">El lugar y la fecha</a>
+                <a class="header__flex__navegador__link" href="#">Conviértete en orador</a>
+                <a class="header__flex__navegador__link" href="#">Comprar tickets</a>
+        </nav>
+    </header>  
+
+    <main>  
+        <section class="sectionMain"> 
+            <div class="sectionMain__contenido">
+                
+                <p class="sectionMain__contenido_conferencia">Conf Bs As</p>
+                <br>
+                <p class="sectionMain__contenido__parrafo">Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que están creando el futuro de Internet. Ven a conocer a los miembros del evento, a otros estudiantes de Codo a Codo y los oradores del primer nivel que tenemos para ti. Te esperamos!</p>
+                <br><br>
+                <div class="sectionMain__contenido_botones">
+                    <a id="btnTransparente" href="">Quiero ser Orador</a>
+                    <a id="btnVerde" href="">Comprar Tickets</a>
+                </div>
+            </div>
+        </section> 
+    </main>
+    
+    <section class="sectionTarjetas">
+        <div class="sectionTarjetas__titulos">
+            <p id="sectionTarjetas__titulos__conoce">CONOCE A LOS </p>
+            <p id="sectionTarjetas__titulos__oradores">ORADORES</p>
+        </div>
+       <div class="sectionTarjetas__contenedor__flex">
+            <div class="sectionTarjetas__contenedor__flex__tarjetas">
+                <!--es una etiquieta contenedora, comodín en bloque, va a pegar un salto de línea-->
+                <img class="sectionTarjetas__contenedor__flex__tarjetas__img" src="./assets/images/steve.jpg" alt="Steve Jobs" width="300" loading="lazy" >
+                <div class="sectionTarjetas__contenedor__flex__tarjetas__contenido">  
+                    <div class="sectionTarjetas__contenedor__flex__tarjetas__contenido__botones">
+                        <a id="botJavascript" href="">JavaScript</a>
+                        <a id="botReact" href="">React</a>
+                    </div>
+                    <h2>Steve Jobs</h2>
+                    <p class="sectionTarjetas__contenedor__flex__tarjetas__contenido__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi at quam corrupti facilis. Quaerat hic reprehenderit fugiat totam quibusdam, quia atque   illo rerum repellat mollitia, libero voluptas corporis quis officiis.</p>
+                </div> 
+            </div>
+            
+            <div class="sectionTarjetas__contenedor__flex__tarjetas">
+                <!--es una etiquieta contenedora, comodín en bloque, va a pegar un salto de línea-->
+                <img class="sectionTarjetas__contenedor__flex__tarjetas__img" src="./assets/images/bill.jpg" alt="Bill Gates" loading="lazy">
+                <div class="sectionTarjetas__contenedor__flex__tarjetas__contenido">
+                    <div class="sectionTarjetas__contenedor__flex__tarjetas__contenido__botones">
+                        <a id="botJavascript" href="">JavaScript</a>
+                        <a id="botReact" href="">React</a>
+                    </div>    
+                    <h2>Bill Gates</h2>
+                    <p class="sectionTarjetas__contenedor__flex__tarjetas__contenido__p">Lorem ipsum dolor sit amet consectetur adipisicing elit.  Quasi at quam corrupti facilis. Quaerat hic reprehenderit fugiat totam quibusdam, quia atque   illo rerum repellat mollitia, libero voluptas corporis quis officiis.</p>
+                </div>
+            </div>
+        
+            <div class="sectionTarjetas__contenedor__flex__tarjetas">
+                <!--es una etiquieta contenedora, comodín en bloque, va a pegar un salto de línea-->
+                <img class="sectionTarjetas__contenedor__flex__tarjetas__img" src="./assets/images/ada.jpeg" alt="Ada Byron" loading="lazy">
+                <div class="sectionTarjetas__contenedor__flex__tarjetas__contenido">
+                    <div class="sectionTarjetas__contenedor__flex__tarjetas__contenido__botones">
+                        <a id="botNegocios" href="">Negocios</a>
+                        <a id="botStartup" href="">Startups</a>
+                    </div>
+                    <h2>Ada Lovelace</h2>
+                    <p class="sectionTarjetas__contenedor__flex__tarjetas__contenido__p">Lorem ipsum dolor sit amet consectetur adipisicing elit.  Quasi at quam corrupti facilis. Quaerat hic reprehenderit fugiat totam quibusdam, quia atque   illo rerum repellat mollitia, libero voluptas corporis quis officiis.</p>
+                    
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="sectionDividida">
+        <div class="sectionDividida__imagen">
+
+        </div>
+        <div class="sectionDividida__texto">
+            <p id="sectionDividida__texto__titulo">Bs As - Octubre</p>
+            <p id="sectionDividida__texto__parrafo" >Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los Estados Unidos. Honolulu es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área urbana en la costa sureste de Oahu, la ciudad y el condado de Honolulu han formado una ciudad condado consolidada que cubre toda la ciudad (aproximadamente 600 km2 de superficie).</p>
+            <a id="sectionDividida__texto__bot" href="#">Conocé más</a>
+        </div>
+    </section>
+
+    <section class="sectionFormulario">
+        <!--Formulario-->
+        <div class="sectionFormulario__titulos">
+            <p id="sectionFormulario__titulos__conoce">CONVIÉRTETE EN UN  </p>
+            <p id="sectionFormulario__titulos__oradores">ORADOR</p>
+            <div class="sectionFormulario__titulos__parrafo">
+                <p class="sectionFormulario__titulos__p">Anótate como orador para dar una  </p>  <p class="sectionFormulario__titulos__p__puntos">  charla ignite</p> <p class="sectionFormulario__titulos__p">. Cuéntanos de qué quieres hablar!</p>
+            </div>    
+        </div>
+        <div class="sectionFormulario__form">
+            <form class="formulario"  action="">
+                <div class="sectionFormulario__form__inputtext">
+                    <div>
+                        <input type="text" placeholder="Nombre" required>
+                    </div>
+                    <div>
+                        <input type="text" placeholder="Apellido" required autofocus>
+                    </div>
+                </div>
+                
+                <div>
+                    <textarea name="textarea1" id="" cols="20" rows="5" placeholder="Sobre qué quieres hablar?"></textarea>
+                    <p>Recuerda incluir un título para tu charla</p>   
+                </div>        
+                <div class="formulario__enviar">
+                    <input  type="submit" value="Enviar">
+                </div>
+            </form>
+        </div>
+    </section>
+        
+    <footer class="footer">
+        <div class="anclasFooter">
+            <a href="">Preguntas frecuentes</a>
+            <a href="">Contáctanos</a>
+            <a href="">Prensa</a>
+            <a href="">Conferencias</a>
+            <a href="">Términos y condiciones</a>
+            <a href="">Privacidad</a>
+            <a href="">Estudiantes</a>
+        </div>
+    </footer>
+
+  
+
+</body>
+</html>

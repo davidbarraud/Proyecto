@@ -1,0 +1,382 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Aquí comienza la sección del encabezado*/
+.header__flex{
+    background-color: rgb(53,58,64);
+    display: flex;
+    justify-content: center;
+
+}
+
+.header__flex__logo{
+    display: flex;
+    align-items: center;
+    width:50%;
+    padding-left:2rem;
+}
+
+.header__flex__logo__img{
+    width: 15%;
+}
+
+.header__flex__navegador{
+               
+    padding-right: 2.5rem;
+    width:50%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-right: 130px;
+}
+.header__flex__navegador__link{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+}
+.header__flex__logo__p{
+    color: white;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Sección principal*/
+.sectionMain{
+    background-image: linear-gradient(to right,rgb(0 0 0 /.5),rgb(0 0 0 /.5)), url("../assets/images/ba1.jpg");
+    height:100vh;
+    width: 100%;
+    display: flex;
+    justify-content:flex-end;
+    align-items:center;
+}
+
+.sectionMain__contenido{
+    width: 60%;
+    text-align: right;
+    color:white;
+}
+
+.sectionMain__contenido_botones{
+   
+    display: flex;
+    justify-content: right;
+}
+
+#btnTransparente{
+  display: inline-block; 
+  color: #ffffff;
+  font-size: 1.2rem;
+  padding: 19px 17px 9px 17px;
+  text-decoration: none;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  border: solid #ffffff 1px;
+  margin-right: 15px;
+  
+  
+}
+#btnTransparente:hover{
+    background-color: rgb(106, 107, 106);  
+    
+}
+
+#btnVerde{
+    display: inline-block; 
+   background-color: rgb(9, 180, 52);
+    color: #ffffff;
+    font-size: 1.2rem;
+    padding: 19px 17px 9px 17px;
+    text-decoration: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    
+  }
+  #btnVerde:hover{
+    background-color: rgb(106, 107, 106); 
+  }
+
+  
+  .sectionMain__contenido{
+    
+    width: 40%;
+    margin-top: 300px;
+    margin-right: 150px;
+    
+  }
+
+  .sectionMain__contenido_conferencia{
+    font-size: 2.5rem;
+    font-weight: bold;
+    
+  }
+
+  .sectionMain__contenido__parrafo{
+    font-size: 1.4rem;
+    line-height: 43px;
+  }
+ 
+
+ /*Aquí comienza la sección de las tarjetas de presentadores*/ 
+
+.sectionTarjetas{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sectionTarjetas__titulos{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#sectionTarjetas__titulos__conoce{
+    font-size: 1rem;
+}
+#sectionTarjetas__titulos__oradores{
+    font-size: 2.3rem;
+}
+.sectionTarjetas__contenedor__flex{
+    width:80%;
+    display:flex;
+    justify-content:space-between;
+    margin-bottom: 30px;
+}
+.sectionTarjetas__contenedor__flex__tarjetas{
+    background-color: white;
+    width: 30%;
+    border:1px solid rgb(214, 214, 214);
+    border-radius: 10px;
+}
+.sectionTarjetas__contenedor__flex__tarjetas__img{
+    width: 100%;
+    border-radius: 10px;
+}
+.sectionTarjetas__contenedor__flex__tarjetas__contenido{
+    padding:1rem;
+}
+.sectionTarjetas__contenedor__flex__tarjetas__contenido__botones{
+    display: inline-block; 
+    margin-bottom: 5px;
+}
+#botJavascript{
+    background-color: rgb(254, 193, 6);
+    text-decoration: none;
+    color: black;
+    font-size: 0.9rem;
+    font-weight: bold;
+    border-radius: 4px;
+    padding: 3px;
+}
+#botReact{
+    background-color: rgb(23, 162, 183);
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 0.9rem;
+    font-weight: bold;
+    border-radius: 4px;
+    padding: 3px;
+}
+#botNegocios{
+    background-color: rgb(106, 116, 125);
+    text-decoration: none;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: bold;
+    border-radius: 4px;
+    padding: 3px;
+}
+#botStartup{
+    background-color: rgb(220, 53, 70);
+    text-decoration: none;
+    color:#ffffff;
+    font-size: 0.9rem;
+    font-weight: bold;
+    border-radius: 4px;
+    padding: 3px;
+}
+.sectionTarjetas__contenedor__flex__tarjetas__contenido__p{
+    line-height: 30px;
+    margin-top: 15px;
+}
+
+
+/*Aquí comienza la sección de la foto dividida */
+.sectionDividida{
+    display: flex;
+    height:60vh;
+
+}
+.sectionDividida__imagen{
+    height:100%;
+    width:50%;
+    background-image: url("../assets/images/honolulu.jpg");
+    background-size: cover;
+}
+.sectionDividida__texto{
+    height:100%;
+    width:50%;
+    padding:2rem ;
+    background-color: #343333;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#sectionDividida__texto__titulo{
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+#sectionDividida__texto__parrafo{
+    font-size: 1.1rem;
+    line-height: 35px;
+}
+
+#sectionDividida__texto__bot{
+    display: inline-block; 
+    color: #ffffff;
+    font-size: 1.2rem;
+    padding: 10px;
+    text-decoration: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: solid #ffffff 1px;
+    margin-top: 15px;
+}
+
+
+/*Aquí comienza la sescción del Formulario*/
+.sectionFormulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+
+.sectionFormulario__titulos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+     
+}
+
+#sectionFormulario__titulos__conoce{
+    font-size: 1rem;
+}
+
+#sectionFormulario__titulos__oradores{
+    font-size: 2.3rem;
+    margin-bottom: 15px;
+}
+
+.sectionFormulario__titulos__parrafo{
+    display: flex;
+   
+}
+.sectionFormulario__titulos__p{
+    font-size: 1.2rem;
+}
+
+.sectionFormulario__titulos__p__puntos{
+    font-size: 1.2rem;
+    text-decoration:underline;
+    text-decoration-style: dotted;
+    margin-left: 3px;
+}
+
+.sectionFormulario__form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    width:50%;
+    
+}
+.formulario{
+    
+    width: 100%;
+}
+.sectionFormulario__form__inputtext{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.sectionFormulario__form__inputtext input {
+    width: 460px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    padding-left: 10px;
+   border: 1px solid #b8b8b8 ;
+    
+}
+.formulario textarea {
+    width: 100%;
+    height: 130px;
+    border-radius: 5px;
+    font-size: 1.6rem;
+    padding: 15px;
+    border: 1px solid #b8b8b8 ;
+   
+}
+.formulario p {
+   font-size: 0.8rem;
+}
+.formulario__enviar{
+    width: 100%;
+    background-color: aquamarine;
+    margin-top: 15px;
+}
+.formulario__enviar input{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(150, 201, 62);
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: 0;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background-color: rgb(28, 61, 78);
+    margin-top: 20px;
+    
+}
+
+.anclasFooter {
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    padding-top: 35px;
+    
+    
+}
+.anclasFooter a{
+    font-size: 1.2rem;
+    color: #ffffff;
+    text-decoration: none;
+    width: 120px;
+    line-height: 30px;
+}
