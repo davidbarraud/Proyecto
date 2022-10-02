@@ -297,11 +297,12 @@ body{
     font-size: 1.2rem;
 }
 
-.sectionFormulario__titulos__p__puntos{
+.sectionFormulario__titulos__p a{
     font-size: 1.2rem;
     text-decoration:underline;
     text-decoration-style: dotted;
-    margin-left: 3px;
+    color: black;
+   
 }
 
 .sectionFormulario__form{
@@ -497,9 +498,8 @@ margin-bottom: 1rem;
     font-size: 0.8rem;
 }
 
-.sectionFormulario__titulos__p__puntos{
+.sectionFormulario__titulos__p a{
     font-size: 0.8rem;
-    margin-left: 1px;
 }
 
 
